@@ -1,0 +1,12 @@
+name: "Factorio Mod Create Package"
+author: "klaborda"
+description: "Creates a zipped package of a Factorio mod for GitHub releases"
+outputs:
+  asset_path:
+    description: "Created zip file path"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "settings"
+  color: "purple"
